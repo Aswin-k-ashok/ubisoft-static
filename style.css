@@ -32,6 +32,13 @@ body {
     
 }
 
+.alignThings{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
 
 header{
     height: 55px;
@@ -334,14 +341,176 @@ margin-bottom: 30px;
 	
 }
 
-.alignButton{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 40px;
+/* ubisoft store section */
+.alignThings #ubiStoreHead{
+    font-size: 41px;
+    margin-top: 100px;
+}
+.storegroup{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: #F1F2F4;
+    padding: 30px 0px 100px 0px;
+}
+.storegroup .storeCards{
+   margin-bottom: 50px;
+}
+
+.storegroup #c1{
+    background: url("https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6kUtwzqJgqm7aDKnMa1S0X/6c3d61adef85b68b10d12bc7e746c0a3/UbidotcomACV-STD-buynow-nov2020_908x1080.jpg");
+    width: 450px;
+    height:600px;
+    /* background-image: url("img/background.jpg"); */
+    background-size: cover; /* or contain depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin:auto;
+    padding:0;
+}
+
+.storegroup #c2{
+    background: url("https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5JKvu0hGlFGEilFuU0vy09/520150dbb1bd8fa3161ea1371c12a77e/Ubidotcom_fc6-standard-preorder-july2020_908x1080.jpg");
+    width: 450px;
+    height:600px;
+    /* background-image: url("img/background.jpg"); */
+    background-size: cover; /* or contain depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin:auto;
+    padding:0;
+}
+.storegroup #c3{
+    background: url("https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1w2jXUMssIuYm0JoKJsnyI/049554e60c70fd920c74c28562dc425c/ubihome-store-promo-r6extraction.jpg");
+    width: 450px;
+    height:600px;
+    /* background-image: url("img/background.jpg"); */
+    background-size: cover; /* or contain depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin:auto;
+    padding:0;
+}
+
+.storegroup .storeCards h1{
+    margin-top: 30px;
+    font-size: 35px;
+    color: white;
+    line-height: 35px;
+    margin: 10px 10px 0px 10px;
+}
+
+/* inside ubisoft section */
+
+.insidegroup{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+}
+.insidegroup .storeCards{
+   margin-bottom: 50px;
+   border-radius: 10px;
+   display: flex;
+   align-items: flex-end;
+}
+
+.insidegroup #c1{
+    background: url("https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5Nq0VG9ojeIMV21nm9xvjv/c8752fb279f773e42d02d8fec210f7f8/inside-ubisoft_star-wars.jpg");
+    width: 450px;
+    height:600px;
+    /* background-image: url("img/background.jpg"); */
+    background-size: cover; /* or contain depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin:auto;
+    padding:0;
+}
+
+.insidegroup #c2{
+    background: url("https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6UR7WhPOJJUbd4tFbgGaHt/9fb45edefc9ffe01c1d8a61da5df5992/inside-ubi-keys_to_learn-480-v3.jpg");
+    width: 450px;
+    height:600px;
+    /* background-image: url("img/background.jpg"); */
+    background-size: cover; /* or contain depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin:auto;
+    padding:0;
+}
+.insidegroup #c3{
+    background: url("https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4Xmy0DBk8t6dDiHTKUUBZh/55b5e78d22e622746a061c1590bd6832/inside-ubisoft_acv-soundtrack.jpg");
+    width: 450px;
+    height:600px;
+    /* background-image: url("img/background.jpg"); */
+    background-size: cover; /* or contain depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin:auto;
+    padding:0;
+}
+
+.insidegroup h1{
+    margin-top: 30px;
+    font-size: 35px;
+    color: white;
+    line-height: 35px;
+    background: rgba(1,0,1,0.3);
+    padding: 0px 20px 0px 20px;
+    line-height: 45px;
+    
 }
 
 
+/* featured video section */
+
+ .ft{
+    background-color: #F1F2F4;;
+}
+
+.ft-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    
+}
+.ft-grid img{
+    width: 100%;
+    height: auto;
+}
+
+.ft-grid ul{
+    margin: 60px 30px 60px 30px;
+}
+
+.ft-grid ul li{
+    list-style: none;
+}
+
+.ft-grid h3{
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.ftButton{
+	margin-top: 90px;
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 17px 43px 17px 43px;
+	border: none;
+	border-radius: 30px;
+	background: var(--ubi-pink);
+	color: #ffffff;
+	font-size: 11px;
+    font-weight: 500;
+    margin-bottom: 75px;
+	
+}
 
 
   /* CONNECT SECTION */
@@ -353,6 +522,7 @@ margin-bottom: 30px;
     background: #091225;
     width: 100%;
     color: white;
+    /* margin-top: 100px; */
 }
 
 .connect .rightcon{
